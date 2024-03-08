@@ -1,74 +1,67 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
-  <title>projeto</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Website</title>
 </head>
 
 <body>
+  <header>
+    <h1>Welcome to My Website!</h1>
+    <nav>
+      <a href="#about">About</a> |
+      <a href="#services">Services</a> |
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-  <h1>Título Principal &lt;h1&gt;
+  <main>
+    <section id="about">
+      <h2>About Us</h2>
+      <p>We are a team of passionate developers dedicated to creating high-quality websites and web applications.</p>
+      <ul>
+        <li>List item 1</li>
+        <li>List item 2</li>
+        <li>List item 3</li>
+      </ul>
+    </section>
 
-  </h1>
-  <h2>Subtítulo &lt;h2&gt;
+    <section id="services">
+      <h2>Our Services</h2>
+      <article>
+        <h3>Web Development</h3>
+        <p>We specialize in building responsive, user-friendly websites using the latest web technologies.</p>
+      </article>
+      <article>
+        <h3>Web Design</h3>
+        <p>Our team of skilled designers can create visually stunning and intuitive designs for your website.</p>
+      </article>
+      <article>
+        <h3>SEO & Digital Marketing</h3>
+        <p>We offer SEO and digital marketing services to help you reach a wider audience and increase your online
+          presence.</p>
+      </article>
+    </section>
 
-  </h2>
-  <h3>Subtítulo Menor &lt;h3&gt;
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <form action="/submit_form" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" required></textarea><br>
+        <input type="submit" value="Submit">
+      </form>
+    </section>
+  </main>
 
-  </h3>
-  <h4>Subseção &lt;h4&gt;
-
-  </h4>
-  <h5>Subseção Menor &lt;h5&gt;
-
-  </h5>
-  <h6>Detalhe &lt;h6&gt;
-
-  </h6>
-
-  <p>Este é um parágrafo &lt;p&gt; com texto de exemplo para ilustrar o uso de várias tags HTML.
-    <mark>Texto marcado &lt;mark&gt;
-
-    </mark>,
-    <small>texto pequeno &lt;small&gt;
-
-    </small>,
-    <i>texto em itálico &lt;i&gt;
-
-    </i>,
-    <u>texto sublinhado &lt;u&gt;
-
-    </u>, e
-    <strong>texto em negrito &lt;strong&gt;
-
-    </strong>.
-  </p>
-
-  <p>Referência a um termo <sub>subscrito &lt;sub&gt;
-
-    </sub> e um termo <sup>sobrescrito &lt;sup&gt;
-
-    </sup>.</p>
-
-  <blockquote>Citação &lt;blockquote&gt;: O conhecimento é poder. - Francis Bacon
-
-  </blockquote>
-
-  <hr>
-
-  <ol>
-    <li>Primeiro item &lt;li&gt; em uma lista ordenada &lt;ol&gt;</li>
-    <li>Segundo item</li>
-  </ol>
-
-  <ul>
-    <li>Item em uma lista não ordenada &lt;ul&gt;</li>
-    <li>Outro item</li>
-  </ul>
-
-  <a href="https://www.example.com" target="_blank">Link &lt;a&gt; para Example.com</a>
-
+  <footer>
+    <p>Copyright © 2024 My Website. All rights reserved.</p>
+  </footer>
 </body>
 
 </html>
