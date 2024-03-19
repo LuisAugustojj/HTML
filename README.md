@@ -1,3 +1,3 @@
-Alguns sites que eu fiz.
-Estruturas CSS iram estar na pasta CSS.
-Estruturas JavasSript(JS) estaram na pasta JavaScript.
+<P>Alguns sites que eu fiz.</P>
+<P>Estruturas CSS iram estar na pasta CSS.</P
+<P>Estruturas JavasSript(JS) estaram na pasta JavaScript.</P>
